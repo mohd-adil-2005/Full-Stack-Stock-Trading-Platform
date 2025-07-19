@@ -9,7 +9,7 @@ const Orders = () => {
   const [allOrders, setallOrders]= useState([]);
 
   useEffect(()=>{
-    axios.get("http://localhost:3000/allOrders",{withCredentials: true,})
+    axios.get("https://full-stack-stock-trading-platform.onrender.com/allOrders",{withCredentials: true,})
     .then((res)=>{
       setallOrders(res.data);
     }).catch((err) => {

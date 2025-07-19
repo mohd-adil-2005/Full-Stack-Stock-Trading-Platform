@@ -9,7 +9,7 @@ const Positions = () => {
   const [allposition, setallposition]= useState([]);
 
   useEffect(()=>{
-    axios.get("http://localhost:3000/allPositions",{withCredentials: true,})
+    axios.get("https://full-stack-stock-trading-platform.onrender.com/allPositions",{withCredentials: true,})
     .then((res)=>{
       setallposition(res.data);
     });

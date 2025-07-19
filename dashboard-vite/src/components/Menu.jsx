@@ -19,7 +19,7 @@ const Menu = () => {
   }; // for the logout code
 const handleLogout= async()=>{
   try{
-    const {data}= await axios.get("http://localhost:3000/logout",{withCredentials:true});   
+    const {data}= await axios.get("https://full-stack-stock-trading-platform.onrender.com/logout",{withCredentials:true});   
     const {message, success}= data;
     if(success){
       toast.success(message);

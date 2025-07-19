@@ -8,7 +8,7 @@ export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
   const [user, setuser] = useState(null);
     useEffect(()=>{
-       axios.get("http://localhost:3000/getuser",{ withCredentials: true })
+       axios.get("https://full-stack-stock-trading-platform.onrender.com/getuser",{ withCredentials: true })
       .then((res)=>{
         console.log(res.data.user);
         setuser(res.data.user);
