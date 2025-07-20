@@ -18,8 +18,9 @@ const PORT = process.env.PORT|| 3000;
 const uri =process.env.MONGO_URI;
 
 app.use(cors({ origin: [
-  "https://full-stack-stock-trading-platform-11.onrender.com",
-  "https://full-stack-stock-trading-platform-1.onrender.com"
+ 
+  "https://full-stack-stock-trading-platform-1.onrender.com",
+   "https://full-stack-stock-trading-platform-11.onrender.com",
 ],
   methods: ["GET", "POST", "PUT", "DELETE"], 
   credentials: true}));

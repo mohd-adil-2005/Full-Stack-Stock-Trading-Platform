@@ -30,8 +30,8 @@ module.exports.Signup = async (req, res, next) => {
     res.cookie("token", token, {
        withCredentials: true,
        httpOnly: true,
-        secure: false,          // true ONLY in HTTPS
-        sameSite: "Lax",
+        secure: true,          // true ONLY in HTTPS
+        sameSite: "None",
        maxAge:24*60*60*1000
   
     });
@@ -65,8 +65,8 @@ module.exports.login = async (req, res, next) => {
      res.cookie("token", token, {
        withCredentials: true,
        httpOnly: true,
-        secure: false,          // true ONLY in HTTPS
-        sameSite: "Lax",
+        secure: true,          // true ONLY in HTTPS
+        sameSite: "None",
        maxAge:24*60*60*1000
      });
     return  res.status(201).json({ message: "User logged in successfully", success: true,user });
@@ -100,8 +100,8 @@ module.exports.logout= async(req,res,next)=>{
     
        withCredentials: true,
        httpOnly: true,
-        secure: false,          // true ONLY in HTTPS
-        sameSite: "Lax",
+        secure: true,          // true ONLY in HTTPS
+        sameSite: "None",
        
     }).json({success:true, message:"user logout successfuly"});
 }
