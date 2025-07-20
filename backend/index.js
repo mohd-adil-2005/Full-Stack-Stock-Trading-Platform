@@ -18,8 +18,8 @@ const PORT = process.env.PORT|| 3000;
 const uri =process.env.MONGO_URI;
 
 app.use(cors({ origin: [
-  "http://localhost:5173",
-  "http://localhost:5174"
+  "https://full-stack-stock-trading-platform-11.onrender.com",
+  "https://full-stack-stock-trading-platform-1.onrender.com"
 ],
   methods: ["GET", "POST", "PUT", "DELETE"], 
   credentials: true}));
@@ -79,7 +79,7 @@ app.get("/allPositions",async (req, res)=>{
 
 
 app.get('/', (req, res) => {
-  res.send('its zerodha clone backend start!')
+  res.redirect("https://full-stack-stock-trading-platform-11.onrender.com");
 });
 // app.get("/data",verifyToken,async(req,res)=>{
 //  const userId = new mongoose.Types.ObjectId(req.userId);
