@@ -12,7 +12,7 @@ function ProductPage() {
       
         <Hero/>
         <Leftsection
-        imgageUrl="public\images\kite.png"
+        imgageUrl="public/images/kite.png"
         productName="Kite"
         productDescription="
         Our ultra-fast flagship trading platform with streaming market data, advanced charts and an elegant UI and more. enjoy the kite experience seamlessly across web, mobile and desktop.
@@ -28,7 +28,7 @@ function ProductPage() {
 
 
 <Rightsection
- imgageUrl="public\images\console.png"
+ imgageUrl="public/images/console.png"
  productName="Console"
  productDescription="
  Buy direct mutual funds online commission-free delivered directly to your demate account. enjoy the investment experience on your android and IOS device
@@ -37,7 +37,7 @@ function ProductPage() {
 
 />
 <Leftsection
-        imgageUrl="public\images\coin.png"
+        imgageUrl="public/images/coin.png"
         productName="Coin"
         productDescription="
         Buy direct mutual funds online commission-free delivered directly to your demate account. enjoy the investment experience on your android and IOS device
@@ -51,7 +51,7 @@ function ProductPage() {
         
         />
         <Rightsection
-        imgageUrl="images\kiteconnect.png"
+        imgageUrl="images/kiteconnect.png"
         productName="Kite connect API"
         productDescription="
         Buy direct mutual funds online commission-free delivered directly to your demate account. enjoy the investment experience on your android and IOS device
@@ -62,7 +62,7 @@ function ProductPage() {
         
         />
         <Leftsection
-        imgageUrl="public\images\varsity.png"
+        imgageUrl="public/images/varsity.png"
         productName="Varsity"
         productDescription="Easy to grasp, collection  of stocks market with in depth coverage and illustrations. Content is broke  down into bite-size cards to help you learn on the go
         "
