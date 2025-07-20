@@ -6,7 +6,7 @@ import ProductPage from './landing-page/product/ProductPage';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Signup from './landing-page/signup/Signup';
 import Login from './landing-page/login/Login';
-import PricingPage from './landing-page/pricing/Pricingpage';
+import PricingPage from './landing-page/pricing/PricingPage';
 import AboutPage from './landing-page/about/Aboutpage'
 import SupportPage from './landing-page/support/SupportPage'
 import Footer from './landing-page/Footer';
