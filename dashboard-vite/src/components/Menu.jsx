@@ -24,7 +24,7 @@ const handleLogout= async()=>{
     if(success){
       toast.success(message);
       setTimeout(()=>{
-        window.location.href= "http://localhost:5173/";
+        window.location.href= "https://full-stack-stock-trading-platform-11.onrender.com";
       }, 1000);
       setIsProfileDropdownOpen(false);
       setIsProfile(false);
